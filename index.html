@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+ <! – div class='container' –>
+  <h1>Lista</h1>
+  <h3>Adicione aqui sua lista de tarefas</h3>
+  <input type="text" id="__userInput__">
+  <button type="submit" onclick="__insertText__()" >Adicionar </button> 
+  <button class="deletList" value="Reload Page" onClick="window.location.reload(true)">
+      Apagar  
+    </button>
+  <! – /div –>
+
+  <div>
+    <li id="__showText__">
+    </li>
+  </div>
+
+</body>
+
+</html>
